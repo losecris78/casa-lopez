@@ -1,0 +1,42 @@
+.brand-background{
+    background-color: rgba(119, 163, 171, 0.891);
+}
+.background-light{
+    background-color: rgba(119, 163, 171, 0.559);
+}
+body{
+    font-family: 'EB Garamond', serif;
+}
+#tittle h1, nav link, #tittle nav a, .main-font{
+    color: rgba(12, 78, 42, 0.97);
+    font-family: 'Playfair Display', serif;
+}
+
+#store-image, .card{
+    object-fit: contain;
+}
+.card .card-header img{
+max-width: 300px;
+}
+.brand-color{
+    color: rgb(7, 49, 26);
+}
+.navbar-brand,#second-nav button,.navbar-brand:hover, #iluminacao nav, .nav-link.active:hover {
+    color:rgb(6, 120, 105);
+}
+#catalogo{
+    display: flex;
+    padding: 6px;
+}
+.social-links{
+    list-style: none;
+    display: flex;
+    padding: 6px;
+}
+#iluminacao.nav-link.active, #second-nav button.active, .nav-link.active, #main_nav ul li a.active{
+    background-color: #fff;
+    color:rgb(7, 49, 26);
+}
+.light{
+    color:rgba(234, 211, 6, 0.867);
+}
